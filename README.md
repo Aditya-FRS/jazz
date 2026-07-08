@@ -27,3 +27,33 @@ service cloud.firestore {
     }
   }
 }
+
+
+
+
+
+
+
+
+dvfh
+
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAupC_gE4o7PMLXgaGpMNLBSIld8w6I-0k",
+  authDomain: "kronos-5aff6.firebaseapp.com",
+  projectId: "kronos-5aff6",
+  storageBucket: "kronos-5aff6.firebasestorage.app",
+  messagingSenderId: "1057500959007",
+  appId: "1:1057500959007:web:a9bf45b39085903f9c602a"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
